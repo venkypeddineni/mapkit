@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18233BDC1F8C788F00E79D21 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18233BDB1F8C788F00E79D21 /* main.m */; };
+		18233BDF1F8C788F00E79D21 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18233BDE1F8C788F00E79D21 /* AppDelegate.m */; };
+		18233BE21F8C789000E79D21 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18233BE11F8C789000E79D21 /* ViewController.m */; };
+		18233BE51F8C789000E79D21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18233BE31F8C789000E79D21 /* Main.storyboard */; };
+		18233BE81F8C789000E79D21 /* directionsusingmapkit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18233BE61F8C789000E79D21 /* directionsusingmapkit.xcdatamodeld */; };
+		18233BEA1F8C789000E79D21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18233BE91F8C789000E79D21 /* Assets.xcassets */; };
+		18233BED1F8C789000E79D21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18233BEB1F8C789000E79D21 /* LaunchScreen.storyboard */; };
+		18233BF81F8C789000E79D21 /* directionsusingmapkitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18233BF71F8C789000E79D21 /* directionsusingmapkitTests.m */; };
+		18233C031F8C789000E79D21 /* directionsusingmapkitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18233C021F8C789000E79D21 /* directionsusingmapkitUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18233BF41F8C789000E79D21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18233BCF1F8C788F00E79D21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18233BD61F8C788F00E79D21;
+			remoteInfo = directionsusingmapkit;
+		};
+		18233BFF1F8C789000E79D21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18233BCF1F8C788F00E79D21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18233BD61F8C788F00E79D21;
+			remoteInfo = directionsusingmapkit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18233BD71F8C788F00E79D21 /* directionsusingmapkit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = directionsusingmapkit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18233BDB1F8C788F00E79D21 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18233BDD1F8C788F00E79D21 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18233BDE1F8C788F00E79D21 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18233BE01F8C789000E79D21 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18233BE11F8C789000E79D21 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18233BE41F8C789000E79D21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18233BE71F8C789000E79D21 /* directionsusingmapkit.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = directionsusingmapkit.xcdatamodel; sourceTree = "<group>"; };
+		18233BE91F8C789000E79D21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18233BEC1F8C789000E79D21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18233BEE1F8C789000E79D21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18233BF31F8C789000E79D21 /* directionsusingmapkitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = directionsusingmapkitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18233BF71F8C789000E79D21 /* directionsusingmapkitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = directionsusingmapkitTests.m; sourceTree = "<group>"; };
+		18233BF91F8C789000E79D21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18233BFE1F8C789000E79D21 /* directionsusingmapkitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = directionsusingmapkitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18233C021F8C789000E79D21 /* directionsusingmapkitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = directionsusingmapkitUITests.m; sourceTree = "<group>"; };
+		18233C041F8C789100E79D21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18233BD41F8C788F00E79D21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18233BF01F8C789000E79D21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18233BFB1F8C789000E79D21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18233BCE1F8C788F00E79D21 = {
+			isa = PBXGroup;
+			children = (
+				18233BD91F8C788F00E79D21 /* directionsusingmapkit */,
+				18233BF61F8C789000E79D21 /* directionsusingmapkitTests */,
+				18233C011F8C789000E79D21 /* directionsusingmapkitUITests */,
+				18233BD81F8C788F00E79D21 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18233BD81F8C788F00E79D21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18233BD71F8C788F00E79D21 /* directionsusingmapkit.app */,
+				18233BF31F8C789000E79D21 /* directionsusingmapkitTests.xctest */,
+				18233BFE1F8C789000E79D21 /* directionsusingmapkitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18233BD91F8C788F00E79D21 /* directionsusingmapkit */ = {
+			isa = PBXGroup;
+			children = (
+				18233BDD1F8C788F00E79D21 /* AppDelegate.h */,
+				18233BDE1F8C788F00E79D21 /* AppDelegate.m */,
+				18233BE01F8C789000E79D21 /* ViewController.h */,
+				18233BE11F8C789000E79D21 /* ViewController.m */,
+				18233BE31F8C789000E79D21 /* Main.storyboard */,
+				18233BE91F8C789000E79D21 /* Assets.xcassets */,
+				18233BEB1F8C789000E79D21 /* LaunchScreen.storyboard */,
+				18233BEE1F8C789000E79D21 /* Info.plist */,
+				18233BE61F8C789000E79D21 /* directionsusingmapkit.xcdatamodeld */,
+				18233BDA1F8C788F00E79D21 /* Supporting Files */,
+			);
+			path = directionsusingmapkit;
+			sourceTree = "<group>";
+		};
+		18233BDA1F8C788F00E79D21 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18233BDB1F8C788F00E79D21 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18233BF61F8C789000E79D21 /* directionsusingmapkitTests */ = {
+			isa = PBXGroup;
+			children = (
+				18233BF71F8C789000E79D21 /* directionsusingmapkitTests.m */,
+				18233BF91F8C789000E79D21 /* Info.plist */,
+			);
+			path = directionsusingmapkitTests;
+			sourceTree = "<group>";
+		};
+		18233C011F8C789000E79D21 /* directionsusingmapkitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18233C021F8C789000E79D21 /* directionsusingmapkitUITests.m */,
+				18233C041F8C789100E79D21 /* Info.plist */,
+			);
+			path = directionsusingmapkitUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18233BD61F8C788F00E79D21 /* directionsusingmapkit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18233C071F8C789100E79D21 /* Build configuration list for PBXNativeTarget "directionsusingmapkit" */;
+			buildPhases = (
+				18233BD31F8C788F00E79D21 /* Sources */,
+				18233BD41F8C788F00E79D21 /* Frameworks */,
+				18233BD51F8C788F00E79D21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = directionsusingmapkit;
+			productName = directionsusingmapkit;
+			productReference = 18233BD71F8C788F00E79D21 /* directionsusingmapkit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18233BF21F8C789000E79D21 /* directionsusingmapkitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18233C0A1F8C789100E79D21 /* Build configuration list for PBXNativeTarget "directionsusingmapkitTests" */;
+			buildPhases = (
+				18233BEF1F8C789000E79D21 /* Sources */,
+				18233BF01F8C789000E79D21 /* Frameworks */,
+				18233BF11F8C789000E79D21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18233BF51F8C789000E79D21 /* PBXTargetDependency */,
+			);
+			name = directionsusingmapkitTests;
+			productName = directionsusingmapkitTests;
+			productReference = 18233BF31F8C789000E79D21 /* directionsusingmapkitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18233BFD1F8C789000E79D21 /* directionsusingmapkitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18233C0D1F8C789100E79D21 /* Build configuration list for PBXNativeTarget "directionsusingmapkitUITests" */;
+			buildPhases = (
+				18233BFA1F8C789000E79D21 /* Sources */,
+				18233BFB1F8C789000E79D21 /* Frameworks */,
+				18233BFC1F8C789000E79D21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18233C001F8C789000E79D21 /* PBXTargetDependency */,
+			);
+			name = directionsusingmapkitUITests;
+			productName = directionsusingmapkitUITests;
+			productReference = 18233BFE1F8C789000E79D21 /* directionsusingmapkitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18233BCF1F8C788F00E79D21 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Nadboy;
+				TargetAttributes = {
+					18233BD61F8C788F00E79D21 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 6S7W7GVN89;
+						ProvisioningStyle = Automatic;
+					};
+					18233BF21F8C789000E79D21 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 6S7W7GVN89;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 18233BD61F8C788F00E79D21;
+					};
+					18233BFD1F8C789000E79D21 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 6S7W7GVN89;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 18233BD61F8C788F00E79D21;
+					};
+				};
+			};
+			buildConfigurationList = 18233BD21F8C788F00E79D21 /* Build configuration list for PBXProject "directionsusingmapkit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18233BCE1F8C788F00E79D21;
+			productRefGroup = 18233BD81F8C788F00E79D21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18233BD61F8C788F00E79D21 /* directionsusingmapkit */,
+				18233BF21F8C789000E79D21 /* directionsusingmapkitTests */,
+				18233BFD1F8C789000E79D21 /* directionsusingmapkitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18233BD51F8C788F00E79D21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18233BED1F8C789000E79D21 /* LaunchScreen.storyboard in Resources */,
+				18233BEA1F8C789000E79D21 /* Assets.xcassets in Resources */,
+				18233BE51F8C789000E79D21 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18233BF11F8C789000E79D21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18233BFC1F8C789000E79D21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18233BD31F8C788F00E79D21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18233BE21F8C789000E79D21 /* ViewController.m in Sources */,
+				18233BDF1F8C788F00E79D21 /* AppDelegate.m in Sources */,
+				18233BE81F8C789000E79D21 /* directionsusingmapkit.xcdatamodeld in Sources */,
+				18233BDC1F8C788F00E79D21 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18233BEF1F8C789000E79D21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18233BF81F8C789000E79D21 /* directionsusingmapkitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18233BFA1F8C789000E79D21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18233C031F8C789000E79D21 /* directionsusingmapkitUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18233BF51F8C789000E79D21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18233BD61F8C788F00E79D21 /* directionsusingmapkit */;
+			targetProxy = 18233BF41F8C789000E79D21 /* PBXContainerItemProxy */;
+		};
+		18233C001F8C789000E79D21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18233BD61F8C788F00E79D21 /* directionsusingmapkit */;
+			targetProxy = 18233BFF1F8C789000E79D21 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18233BE31F8C789000E79D21 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18233BE41F8C789000E79D21 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18233BEB1F8C789000E79D21 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18233BEC1F8C789000E79D21 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18233C051F8C789100E79D21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18233C061F8C789100E79D21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18233C081F8C789100E79D21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6S7W7GVN89;
+				INFOPLIST_FILE = directionsusingmapkit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = app.com.directionsusingmapkit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18233C091F8C789100E79D21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6S7W7GVN89;
+				INFOPLIST_FILE = directionsusingmapkit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = app.com.directionsusingmapkit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		18233C0B1F8C789100E79D21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6S7W7GVN89;
+				INFOPLIST_FILE = directionsusingmapkitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = app.com.directionsusingmapkitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/directionsusingmapkit.app/directionsusingmapkit";
+			};
+			name = Debug;
+		};
+		18233C0C1F8C789100E79D21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6S7W7GVN89;
+				INFOPLIST_FILE = directionsusingmapkitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = app.com.directionsusingmapkitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/directionsusingmapkit.app/directionsusingmapkit";
+			};
+			name = Release;
+		};
+		18233C0E1F8C789100E79D21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 6S7W7GVN89;
+				INFOPLIST_FILE = directionsusingmapkitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = app.com.directionsusingmapkitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = directionsusingmapkit;
+			};
+			name = Debug;
+		};
+		18233C0F1F8C789100E79D21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 6S7W7GVN89;
+				INFOPLIST_FILE = directionsusingmapkitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = app.com.directionsusingmapkitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = directionsusingmapkit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18233BD21F8C788F00E79D21 /* Build configuration list for PBXProject "directionsusingmapkit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18233C051F8C789100E79D21 /* Debug */,
+				18233C061F8C789100E79D21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18233C071F8C789100E79D21 /* Build configuration list for PBXNativeTarget "directionsusingmapkit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18233C081F8C789100E79D21 /* Debug */,
+				18233C091F8C789100E79D21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18233C0A1F8C789100E79D21 /* Build configuration list for PBXNativeTarget "directionsusingmapkitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18233C0B1F8C789100E79D21 /* Debug */,
+				18233C0C1F8C789100E79D21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18233C0D1F8C789100E79D21 /* Build configuration list for PBXNativeTarget "directionsusingmapkitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18233C0E1F8C789100E79D21 /* Debug */,
+				18233C0F1F8C789100E79D21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		18233BE61F8C789000E79D21 /* directionsusingmapkit.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				18233BE71F8C789000E79D21 /* directionsusingmapkit.xcdatamodel */,
+			);
+			currentVersion = 18233BE71F8C789000E79D21 /* directionsusingmapkit.xcdatamodel */;
+			path = directionsusingmapkit.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 18233BCF1F8C788F00E79D21 /* Project object */;
+}
